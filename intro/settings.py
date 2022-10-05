@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 # [코드 작성] functions 앱 등록하기
 INSTALLED_APPS = [
-    
+    'functions',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

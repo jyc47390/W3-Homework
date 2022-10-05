@@ -5,5 +5,5 @@ from . import views
 urlpatterns = [
     path('index/', views.index),
     # [코드 작성] views.py의 travel 함수를 실행해주는 url 생성하기
-    path('travel/', ),
+    path('travel/', views.travel),
 ]

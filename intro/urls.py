@@ -21,5 +21,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # [코드 작성] functions 앱의 urls.py를 사용할 수 있도록 포함시켜주기
-    path('', include()),
+    path('', include('functions.urls')),
 ]
